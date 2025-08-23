@@ -42,7 +42,7 @@
         <footer class="site-footer">
             <div class="wrapper">
                 <div class="footer-content">
-                    <p>&copy; {{ site.time | date: '%Y' }} SylarAtomic. Built with Jekyll.</p>
+                    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | escape }}. Built with Jekyll.</p>
                     <div class="social-links">
                         {% if site.github_username %}
                         <a href="https://github.com/{{ site.github_username }}">GitHub</a>

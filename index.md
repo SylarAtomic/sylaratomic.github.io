@@ -7,10 +7,33 @@ title: Home
   <h1>Welcome to My Site</h1>
   <p class="lead">A beautiful dark-themed Jekyll site built for GitHub Pages.</p>
   
-  <div class="card">
-    <h2>About This Theme</h2>
-    <p>This is a clean, modern dark theme featuring a beautiful color palette of dark blues, purples, and white. Perfect for portfolios, blogs, and project showcases.</p>
-    <a href="#" class="btn">Learn More</a>
+  <div class="social-hero">
+    <h2>Connect With Me</h2>
+    <div class="social-links-grid">
+      <a href="https://www.twitch.tv/sylaratomic" target="_blank" class="social-card twitch">
+        <div class="social-icon">📺</div>
+        <div class="social-info">
+          <h3>Twitch</h3>
+          <p>Watch me live stream</p>
+        </div>
+      </a>
+      
+      <a href="https://www.youtube.com/@SylarAtomic" target="_blank" class="social-card youtube">
+        <div class="social-icon">🎥</div>
+        <div class="social-info">
+          <h3>YouTube</h3>
+          <p>Check out my videos</p>
+        </div>
+      </a>
+      
+      <a href="https://bsky.app/profile/sylaratomic.bsky.social" target="_blank" class="social-card bluesky">
+        <div class="social-icon">🦋</div>
+        <div class="social-info">
+          <h3>Bluesky</h3>
+          <p>Follow my thoughts</p>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 

@@ -2,8 +2,8 @@ title: Your Site Title
 description: A beautiful dark-themed Jekyll site
 author: Your Name
 email: your.email@example.com
-url: "https://syaratomic.github.io"
-baseurl: "" # Leave empty if using yourusername.github.io
+url: "https://sylaratomic.github.io"
+baseurl: "" # Empty for username.github.io sites
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,25 @@
+title: Your Site Title
+description: A beautiful dark-themed Jekyll site
+author: Your Name
+email: your.email@example.com
+url: "https://syaratomic.github.io"
+baseurl: "" # Leave empty if using yourusername.github.io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

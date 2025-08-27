@@ -1,10 +1,10 @@
 ---
 layout: default
-title: All Posts
+title: Blog
 ---
 
 <div class="fade-in-up">
-  <h1>All Posts</h1>
+  <h1>Blog</h1>
   <p class="lead">Here's everything I've written so far. Tips, tutorials, and thoughts from my development journey.</p>
   
   {% if site.posts.size > 0 %}

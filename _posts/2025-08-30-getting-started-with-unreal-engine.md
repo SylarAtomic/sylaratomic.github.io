@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: "Getting started with Unreal Engine 5"
 date: 2025-08-30
-categories: blog
+categories: [blog]
 ---
 
 # Getting Started with Unreal Engine 5

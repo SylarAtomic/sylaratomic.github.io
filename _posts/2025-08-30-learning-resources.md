@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: "Learning Resources"
 date: 2025-08-30
-categories: blog
+categories: [blog]
 ---
 
 # Game Development Resources

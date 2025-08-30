@@ -5,8 +5,6 @@ date: 2025-08-30
 categories: [blog]
 ---
 
-# Getting Started with Unreal Engine 5
-
 This is a collection of Game Dev notes I've made along my journey. I hope they provide you with some good knowledge. I'll try to keep this updated the best I can.
 
 ## Start with Blueprints

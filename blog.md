@@ -5,7 +5,7 @@ title: Blog
 
 <div class="fade-in-up">
   <h1>Blog</h1>
-  <p class="lead">Here's everything I've written so far. Tips, tutorials, and thoughts from my development journey.</p>
+  <p class="lead">Tips, tutorials, and insights from my game development journey. Everything I learn, I share here to help others on their creative paths.</p>
   
   {% if site.posts.size > 0 %}
     <div class="posts-container">
@@ -25,7 +25,11 @@ title: Blog
           {% endif %}
         </div>
         <div class="post-excerpt">
-          {{ post.excerpt | strip_html | truncatewords: 50 }}
+          {% if post.excerpt %}
+            {{ post.excerpt | strip_html | truncatewords: 50 }}
+          {% else %}
+            {{ post.content | strip_html | truncatewords: 50 }}
+          {% endif %}
         </div>
         <a href="{{ post.url | relative_url }}" class="read-more-btn">Read More →</a>
       </article>
@@ -33,7 +37,11 @@ title: Blog
     </div>
   {% else %}
     <div class="no-posts">
-      <p>No posts yet! Check back soon for updates on my game development journey.</p>
+      <div class="card">
+        <h2>Coming Soon!</h2>
+        <p>I'm just getting started with this blog. Check back soon for updates on my game development journey, tutorials, and useful resources I discover along the way.</p>
+        <p>In the meantime, you can follow my live development streams on <a href="https://www.twitch.tv/sylaratomic" target="_blank">Twitch</a> or check out my videos on <a href="https://www.youtube.com/@SylarAtomic" target="_blank">YouTube</a>!</p>
+      </div>
     </div>
   {% endif %}
 </div>

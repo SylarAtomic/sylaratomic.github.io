@@ -103,7 +103,11 @@ This is a comprehensive collection of resources for the complete game developmen
 ### Translation
 - [Game Translation Spreadsheet Template](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit?gid=310116733#gid=310116733)
 
----
+
+## Other
+
+### Git
+- [Learn Git Branching](https://learngitbranching.js.org/)
 
 ---
 

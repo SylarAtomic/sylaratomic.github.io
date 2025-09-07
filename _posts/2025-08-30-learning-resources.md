@@ -27,6 +27,8 @@ This is a comprehensive collection of resources for the complete game developmen
 - [HTTP JSON Requests](https://www.tomlooman.com/unreal-engine-async-blueprint-http-json/)
 - [CVAR System](https://www.youtube.com/watch?v=dj4kNnj4FAQ&ab_channel=UnrealEngine)
 
+> **💡 Pro Tip:** Start with Unreal Engine basics, then gradually incorporate 3D modeling (Blender) and texturing (Substance Painter) as your projects become more complex. These tools form a powerful pipeline for modern game development!
+
 ### Visual Effects & UI
 **Niagara (VFX)**
 - [RedefineFX Channel](https://www.youtube.com/@RedefineFX)
@@ -104,10 +106,6 @@ This is a comprehensive collection of resources for the complete game developmen
 - [Game Translation Spreadsheet Template](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit?gid=310116733#gid=310116733)
 
 
-## Other
-
-### Git
-- [Learn Git Branching](https://learngitbranching.js.org/)
 
 ---
 
@@ -122,5 +120,8 @@ This is a comprehensive collection of resources for the complete game developmen
 ---
 
 
+## Other
 
-> **💡 Pro Tip:** Start with Unreal Engine basics, then gradually incorporate 3D modeling (Blender) and texturing (Substance Painter) as your projects become more complex. These tools form a powerful pipeline for modern game development!
+### Git
+- [Learn Git Branching](https://learngitbranching.js.org/)
+
